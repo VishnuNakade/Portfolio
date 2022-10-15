@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd72be3143.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/VN.webp" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Vishnu</span><br>Nakade From Nagpur</h1>
+            </div>
+        </div>
+
+    </div>
+<!----------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am highly motivated to work toward things that I am passionate about. I am skilled at using various programming languages and Design, development. Currently, studying in YCCE Nagpur 4th year Electrical Engineering (B.E.). Looking for opportunities to work under experienced Developer and to make substantial contribution in the developers' community.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Certification & Courses')">Certification & Courses</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>C++</span><br>Programming</li>
+                            <li><span>Web Development</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Certification & Courses">
+                        <ul>
+                            <li><span>C++</span><br>Learn C++ Quick and Easy! Udemy
+                                Course Completion Certificate
+                                (2020)</li>
+                            <li><span>NCC</span><br>"A" Certificate National Cadet Corps
+                                (NCC) (2015)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019 - Current</span><br>B.E in Electrical Engineering (YCCE Nagpur)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tital">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia veniam, voluptate, iste quos repudiandae illo exercitationem dolore consequatur, quasi nemo. Blanditiis rem veritatis numquam suscipit adipisci voluptatem esse perspiciatis.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>XYZ Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia veniam, voluptate, iste quos repudiandae illo exercitationem dolore consequatur, quasi nemo. Blanditiis rem veritatis numquam suscipit adipisci voluptatem esse perspiciatis.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>XYZ Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia veniam, voluptate, iste quos repudiandae illo exercitationem dolore consequatur, quasi nemo. Blanditiis rem veritatis numquam suscipit adipisci voluptatem esse perspiciatis.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------Portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Gym Registration Form</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima modi optio sapiente culpa autem quibusdam consectetur expedita eligendi porro iure vero, eos ad error mollitia sunt iusto veritatis. Iste.</p>
+                    <a href="https://vishnunakade.github.io/gym-website-design/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work2.png" alt="">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima modi optio sapiente culpa autem quibusdam consectetur expedita eligendi porro iure vero, eos ad error mollitia sunt iusto veritatis. Iste.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work3.png" alt="">
+                <div class="layer">
+                    <h3>XYZ Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima modi optio sapiente culpa autem quibusdam consectetur expedita eligendi porro iure vero, eos ad error mollitia sunt iusto veritatis. Iste.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ----------------Contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>vishnunakade@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7588996930</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vishnu-nakade-3ab227192/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vishnu_nakade/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://m.facebook.com/home.php?tbua=1" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Vishnu Nakade Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vishnu.<i class="fa-regular fa-face-smile"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+// for remove active link or tab
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+// for show Active linke and tab
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        // script for phone screen menu and close buttons
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwROdDwFroxxSgcvHiezfemcoX_kNZU5HzS90Gc3J3C_0lTwT3_wuBydlHaRKyTx67e/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
